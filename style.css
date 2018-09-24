@@ -62,6 +62,9 @@ MAIN
     justify-content: space-around;
 }
 
+footer {
+    font-size: 70%;
+}
 
 .display {
     width: 50%;
