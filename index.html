@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kalkulator wydatków</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="control">
+        <h1>KALKULATOR WYDATKÓW</h1>
+        <div class="label">
+            <h3>Imię</h3>
+            <select class="name">
+                <option value="perA">Iweta</option>
+                <option value="perB">Mateusz</option>
+            </select>
+        </div>
+        <div class="label">
+            <h3>Opis</h3>
+            <input type="text" class="description" placeholder="Towar">
+        </div>
+        <div class="label">
+            <h3>Kwota</h3>
+            <input type="text" class="value" placeholder="Cena">
+        </div>
+        <div class="label">
+            <h3>Dla kogo</h3>
+            <select class="destiny">
+                    <option value="option1">Wspólne</option>
+                    <option value="option2">Prywatne</option>
+                </select>
+        </div>
+        <input class="summary-btn" type="submit" value="ZATWIERDŹ">
+    </div>
+    <div class="display">
+        <div class="shoping-list">
+            <h2>KUPIONE</h2>
+            <div class="names">
+                <h3>Iweta</h3>
+                <h3>Mateusz</h3>
+            </div>
+            <div class="shopping-label">
+                <div class="person personA">
+                    <!--<div class="item" id="perA-%id%">-->
+                        <!--<span>%description%</span>-->
+                        <!--<div>+%value% zl-->
+                            <!--<button class="item-delete-btn">-->
+                                <!--<i class="far fa-times-circle"></i>-->
+                            <!--</button>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                </div>
+                <div class="person personB">
+
+                </div>
+            </div>
+            <div class="total-value">
+                <h3 class="perA">+ 120, 50 zł</h3>
+                <h3 class="perB">+ 250, 70 zł</h3>
+            </div>
+        </div>
+        <div class="summary">
+
+        </div>
+    </div>
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
