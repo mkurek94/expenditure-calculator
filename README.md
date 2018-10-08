@@ -1,5 +1,6 @@
 # expenditure-calculator
 Project made for my girlfriend to help her calculate our expenses when we lived together and we don't had a job yet.
+Application is not responsive because it was designed for only her and mine computer.
 
 Used: Vanilla Javascript, HTML5, CSS
 
